@@ -1,0 +1,33 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "isomorphic-unfetch": "^3.0.0",
+    "moment": "^2.26.0",
+    "next": "^9.3.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-google-recaptcha": "^2.0.1",
+    "react-grid": "^4.0.3",
+    "react-icons": "^3.10.0",
+    "react-markdown": "^4.3.1",
+    "react-moment": "^0.9.7",
+    "react-pdf": "^4.1.0",
+    "react-recaptcha": "^2.3.10",
+    "react-toastify": "^6.0.5"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
