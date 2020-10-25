@@ -314,8 +314,15 @@ footer#website-footer{
 
 .tech-stack {
 	margin-top:1.5rem;
-	span{
-		
+	text-align:center;
+	h2{
+		margin-bottom:1.5rem;
+		font-size:1.7rem;
+		color:$font-color-black;
+	}
+	.tech-area{
+		text-align:left;
+		span{
 		display: inline-block;
     color: #fff;
     margin-right: 0.5rem;
@@ -344,6 +351,7 @@ footer#website-footer{
 				// background:$background-main;
 			}
 		}
+	}
 	}
 }
 

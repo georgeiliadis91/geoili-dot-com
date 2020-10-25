@@ -825,8 +825,17 @@ footer#website-footer .social-block a {
 
 .tech-stack {
   margin-top: 1.5rem;
+  text-align: center;
 }
-.tech-stack span {
+.tech-stack h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.7rem;
+  color: #4c4c4c;
+}
+.tech-stack .tech-area {
+  text-align: left;
+}
+.tech-stack .tech-area span {
   display: inline-block;
   color: #fff;
   margin-right: 0.5rem;
@@ -839,17 +848,17 @@ footer#website-footer .social-block a {
   letter-spacing: 0.11rem;
   transition: transform 0.5s;
 }
-.tech-stack span:nth-of-type(odd) {
+.tech-stack .tech-area span:nth-of-type(odd) {
   background: #1287A5;
 }
-.tech-stack span:nth-of-type(odd):hover {
+.tech-stack .tech-area span:nth-of-type(odd):hover {
   cursor: pointer;
   transform: scale(1.1);
 }
-.tech-stack span:nth-of-type(even) {
+.tech-stack .tech-area span:nth-of-type(even) {
   background: #9bfb8b;
 }
-.tech-stack span:nth-of-type(even):hover {
+.tech-stack .tech-area span:nth-of-type(even):hover {
   cursor: pointer;
   transform: scale(1.1);
 }

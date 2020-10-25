@@ -42,8 +42,16 @@ export default function home({ data, techdata }) {
 					</div>
 
 					<div className="tech-stack">
-						{techdata.map(tech => <span key={tech.id}>{tech.name}</span>
-						)}
+						<h2>Primary</h2>
+						<div className="tech-area">
+							{techdata.map(tech => { if (tech.primary) { return <span key={tech.id}>{tech.name}</span> } }
+							)}
+						</div>
+						<h2>Secondary</h2>
+						<div className="tech-area">
+							{techdata.map(tech => { if (!tech.primary) { return <span key={tech.id}>{tech.name}</span> } }
+							)}
+						</div>
 					</div>
 					<div className="cv-download">
 						<p>You can download my CV here</p>
