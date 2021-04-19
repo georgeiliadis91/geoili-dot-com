@@ -14,7 +14,6 @@ export default function home({ data, techdata }) {
 		< div >
 			<Head>
 				<title>George Iliadis | Developer </title>
-				<link rel="stylesheet" type="text/css" href="index.css" />
 				<meta property="og:image" content="/assets/fb-share.jpeg" />
 				<meta name="Description" content="George Iliadis, Web developer" />
 			</Head>
