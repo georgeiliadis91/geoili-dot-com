@@ -9,7 +9,7 @@ const Footer = () => {
 
 
 		<footer id="website-footer">
-			<p>COPYRIGHT©2020 GEORGE ILIADIS ALL RIGHTS RESERVED</p>
+			<p>COPYRIGHT©{new Date().getFullYear()} GEORGE ILIADIS ALL RIGHTS RESERVED</p>
 
 			<div className="social-block">
 
